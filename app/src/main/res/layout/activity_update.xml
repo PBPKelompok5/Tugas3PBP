@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="@string/update_data"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:id="@+id/judul_ruangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:text="@string/ruangan"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/ruangan"
+        android:layout_below="@id/judul_ruangan"
+        android:layout_marginTop="10dp"
+        android:hint="@string/ruangan"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/judul_gedung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ruangan"
+        android:text="@string/ruangan"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/gedung"
+        android:layout_below="@+id/judul_gedung"
+        android:layout_marginTop="10dp"
+        android:hint="@string/gedung"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/judul_kapasitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gedung"
+        android:text="@string/kapasitas"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/kapasitas"
+        android:layout_below="@+id/judul_kapasitas"
+        android:layout_marginTop="10dp"
+        android:hint="@string/kapasitas"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_simpan"
+        android:text="@string/simpan"
+        android:layout_below="@id/kapasitas"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CRUD2</string>
+    <string name="gedung">Gedung</string>
+    <string name="ruangan">Ruangan</string>
+    <string name="kapasitas">Kapasitas</string>
+    <string name="simpan">Simpan</string>
+    <string name="kode_ruangan">Kode Ruangan</string>
+    <string name="detail_ruangan">Detail Ruangan</string>
+    <string name="input_data_ruangan">Input Data Ruangan</string>
+    <string name="submit">Submit</string>
+    <string name="update_data">Update Data</string>
+    <string name="daftar_ruangan_fsm">Daftar Ruangan FSM</string>
+</resources>
